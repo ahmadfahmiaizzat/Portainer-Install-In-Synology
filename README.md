@@ -45,3 +45,71 @@ Navigate to http://Synology-ip-address:9000 in your browser. Select a robust pas
 Step 8
 To begin using the local environment in which Portainer is running, click Get Started. 
 
+![Get started](https://github.com/user-attachments/assets/d8f3fe8f-9785-4631-ab36-1c7d02becf45)
+
+Step 9
+Click the small pencil in the Environments section on the right. 
+
+![pencil](https://github.com/user-attachments/assets/7e11300c-449b-47de-8f46-334dc1891cd0)
+
+Step 10
+A new page will open when you click on the tiny pencil. Enter your own NAS Local IP address.In my case, 192.168.0.164 in the Public IP section and select Update environment.
+
+![Nas ip](https://github.com/user-attachments/assets/27d8e98c-8439-488a-ac0c-069e13d0407e)
+
+Step 11
+The phrase "Environment updated" will appear in the upper right corner of your screen if everything goes according to plan.
+
+Step 12
+This is your Portainer Dashboard
+
+![Dashboard](https://github.com/user-attachments/assets/da245314-5c95-442d-8e8c-3ddde7304141)
+
+Step 13
+Click Registries in the left Portainer sidebar, and then select + Add registry. Observe the guidelines provided in the picture below.
+
+![Registry](https://github.com/user-attachments/assets/20ade534-fd98-49d5-99e5-f713a6eea711)
+
+Step 14
+Select "Custom registry" by clicking. Type GHCR in the Name field and ghcr.io in the Registry URL fields.
+To save the configuration, select Add registry. Observe the guidelines provided in the picture below.
+It should be noted that updating Docker containers via Portainer that are supplied by the ghcr.io registry requires the ghcr.io registry.
+
+![Registry 2](https://github.com/user-attachments/assets/d2ba667b-e281-44c4-83e1-aca094b74b72)
+
+Step 15
+Repeat Step 14 , Select "Custom registry" by clicking. Enter CODEBERG in the Name box and codeberg.org in the Registry URL fields.
+To save the configuration, select Add registry. Observe the guidelines provided in the picture below.
+It should be noted that updating Docker containers via Portainer that are supplied by the codeberg.org registry requires the codeberg.org registry.
+
+![Registry 2](https://github.com/user-attachments/assets/fa5fead7-6db3-41ec-b9da-5136d5b72697)
+
+Step 16 
+Repeat Step 14 , Select "Custom registry" by clicking. Type Quay.io in the Name field and Quay.io in the Registry URL fields.
+To save the configuration, select Add registry. Observe the guidelines provided in the picture below.
+It should be noted that updating Docker containers via Portainer that are served by the quay.io registry requires the quay.io registry.
+
+![quay io](https://github.com/user-attachments/assets/d67b8cc2-77ac-4d35-b90b-52bcecc6c106)
+
+Step 17
+If all goes according to plan, your Registries section will resemble this:
+
+![Registry 3](https://github.com/user-attachments/assets/9ca43b9d-5f42-445d-a7c7-954bd1de1d26)
+
+
+Enjoy your Portainer!!!!!!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
